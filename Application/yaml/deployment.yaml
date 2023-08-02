@@ -2,18 +2,18 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
 # set your lab user name
-  name: dmitri_drach-hello-world
+  name: user20-hello-world
 spec:
   replicas: 3
   selector:
     matchLabels:
 # set your lab user name
-      app: dmitri_drach-hello-world
+      app: user20-hello-world
   template:
     metadata:
       labels:
 # set your lab user name
-        app: dmitri_drach-hello-world
+        app: user20-hello-world
     spec:
       containers:
         - resources: {}
