@@ -12,7 +12,7 @@ var readiness_new = 200
 
 // Route application to index.html file.
 router.get('/',function(req,res){
-  res.sendFile(path.join('/html/index.html'));
+  res.sendFile(path.join('src/html/index.html'));
   //__dirname : It will resolve to your project folder.
 });
 
